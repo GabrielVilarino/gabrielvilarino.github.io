@@ -64,7 +64,7 @@ section.conteudo_principal{
     margin: 0 10px;
 }
 
-.pocoes button img{
+.porcoes img{
     width: 32px;
     height: 32px;
 }
@@ -129,9 +129,10 @@ section.receita{
         margin-bottom: 60px;
     }
 
-    .pocoes button img{
-        width: 32px;
-        height: 32px;
+    .porcoes img{
+        width: 16px;
+        height: 16px;
+        border: 1px solid red;
     }
 
     .explicativo h2{
