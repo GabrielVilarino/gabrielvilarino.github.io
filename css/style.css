@@ -122,6 +122,7 @@ section.receita{
 @media (max-width: 768px) { /* Adicionando regra de mídia para telas menores */
     .center {
         max-width: 800px;
+        padding: 0 1%;
     }
 
     .imagem-pamonha img{
