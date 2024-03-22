@@ -8,8 +8,9 @@ body{
 }
 
 .center {
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20%;
+    padding: 0 3%;
     box-sizing: border-box;
 }
 
@@ -34,7 +35,7 @@ section.conteudo_principal{
 }
 
 .explicativo{
-    margin-right: 17%;
+    margin-right: 12%;
 }
 
 .explicativo h2{
@@ -61,6 +62,11 @@ section.conteudo_principal{
     border: none;
     vertical-align: middle;
     margin: 0 10px;
+}
+
+.pocoes button img{
+    width: 32px;
+    height: 32px;
 }
 
 .porcoes button:hover{
@@ -114,9 +120,47 @@ section.receita{
 }
 
 @media (max-width: 768px) { /* Adicionando regra de mídia para telas menores */
+    .center {
+        max-width: 800px;
+    }
 
-    .conteudo_principal img{
-        width: 300px;
-        height: auto;
+    .imagem-pamonha img{
+        width: 200px;
+        margin-bottom: 60px;
+    }
+
+    .pocoes button img{
+        width: 32px;
+        height: 32px;
+    }
+
+    .explicativo h2{
+        font-size: 32px;
+
+    }
+    
+    .explicativo p{
+        font-size: 16px;
+    }
+
+    .ingredientes h5{
+        color: #FEECE0;
+        font-size: 18px;
+    }
+    
+    .ingredientes p{
+        color: #FEECE0;
+        font-size: 14px;
+
+    }
+
+    .preparo h5{
+        color: #FEECE0;
+        font-size: 18px;
+    }
+    
+    .preparo p{
+        color: #FEECE0;
+        font-size: 14px;
     }
 }
