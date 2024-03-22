@@ -133,7 +133,6 @@ section.receita{
     .porcoes img{
         width: 16px;
         height: 16px;
-        border: 1px solid red;
     }
 
     .explicativo h2{
@@ -165,4 +164,44 @@ section.receita{
         color: #FEECE0;
         font-size: 14px;
     }
+}
+
+@media (max-width: 480px) { /* Adicionando regra de mídia para telas menores */
+
+    .imagem-pamonha img{
+        width: 150px;
+        margin-bottom: 100px;
+    }
+
+    .ingredientes img{
+        width: 16px;
+        height: auto;
+    }
+
+    .ingredientes h5{
+        color: #FEECE0;
+        font-size: 16px;
+    }
+    
+    .ingredientes p{
+        color: #FEECE0;
+        font-size: 12px;
+
+    }
+
+    .preparo img{
+        width: 16px;
+        height: auto;
+    }
+
+    .preparo h5{
+        color: #FEECE0;
+        font-size: 16px;
+    }
+    
+    .preparo p{
+        color: #FEECE0;
+        font-size: 12px;
+    }
+   
 }
